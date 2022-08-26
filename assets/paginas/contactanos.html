@@ -12,27 +12,60 @@
         <h2>GRACIAS POR CONTÁCTARNOS</h2>
         <h4>DILIGENCIE EL SIGUIENTE FORMULARIO</h4>
         <form>
-            <div>
+            <div id="orden" class="contenido">
                 <label for=""><strong>Nombres</strong></label>
                 <input type="text" placeholder="Escribe tu nombre">
             </div>
-            <div>
+            <div id="orden" class="contenido">
                 <label for=""><strong>Apellidos</strong></label>
                 <input type="text" placeholder="Escribe tu apellido">
             </div>
-            <div>
+            <div class="contenido">
                 <label for=""><strong>Dirección</strong></label>
                 <input type="text" placeholder="Escribe tu dirección">
             </div>
-            <div>
+            <div class="contenido">
                 <label for=""><strong>Teléfono</strong></label>
-                <input type="text" placeholder="Escribe tu teléfono">
+                <input type="number" placeholder="Escribe tu teléfono">
             </div>
-            <div >
+            <div class="contenido">
                 <label><strong>Género</strong> <br>
                     <input type="radio" name="radio">Femenino
                     <input type="radio" name="radio">Masculino
                 </label>
+            </div>
+            <div class="contenido">
+                <label for=""><strong>País</strong></label>
+                <select>
+                    <option selected>Selecciona tu país</option>
+                    <option value="1">Colombia</option>
+                    <option value="2">Estados Unidos</option>
+                    <option value="3">Canadá</option>
+                </select>
+            </div>
+            <div class="contenido">
+                <label for=""><strong>Departamento</strong></label>
+                <select>
+                    <option selected>Selecciona tu departamento</option>
+                    <option value="1">Tolima</option>
+                    <option value="2">Cundinamarca</option>
+                    <option value="3">Manizales</option>
+                </select>
+            </div>
+            <div class="contenido">
+                <label for=""><strong>Ciudad</strong></label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona tu ciudad</option>
+                    <option value="1">Armero</option>
+                    <option value="2">Ibagué</option>
+                    <option value="3">Bogotá</option>
+                </select>
+            </div>
+            <div class="contenido">
+                <textarea class="container" name="" id="" cols="150" rows="10" placeholder="Dejanos tu comentario"></textarea>
+            </div>
+            <div class="contenido">
+                <button>Guardar</button>
             </div>
         </form>
     </div>

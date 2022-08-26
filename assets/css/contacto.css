@@ -1,3 +1,34 @@
+/*body{
+    margin: 0;
+    padding: 0;
+}*/
+
 .container{
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
     font-family: verdana;
 }
+
+h2, h4{
+    display: block;
+    text-align: center;
+}
+
+.container .contenido{
+    margin-top: 20px;
+}
+
+.container #orden{
+    display: inline-block;
+}
+
+
+
+/*.container input, select {
+    width: 100%;
+    padding: 2px;
+    font-family: verdana;
+}*/
