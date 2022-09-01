@@ -1,0 +1,33 @@
+
+.listas{
+    color: #BF1818;
+    list-style-type: none;
+}
+
+.listas, .sublistas:hover{
+    cursor: pointer;
+    
+}
+
+.listas:hover{
+    color: #9DFD48;
+}
+
+.sublistas:hover{
+    color: #DB7979;
+}
+
+.sublistas{
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: rgb(132, 24, 132);
+}
+
+.links li a:hover{
+    color: rgb(234, 103, 234);
+}
