@@ -1,32 +1,75 @@
+@font-face {
+    font-family: List;
+    src: url(../fonts/Magical\ Story.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: sublist;
+    src: url(../fonts/Small\ Print.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --colorlistas: #BF1818;
+    --colorlinks: rgb(132, 24, 132);
+    --hoverlistas: #6ed019;
+    --hoversublistas: #DB7979;
+    --hoverlinks: rgb(234, 103, 234);
+    --fondonav: #a3f1f6; 
+    --tamañolistas: 28px;
+    --tamañosublistas: 23px;
+    --tamañolinks: 20px;
+    --font: 'Kanit', sanserif;
+}
+
+#header nav{
+    background: var(--fondonav);
+}
+
 .listas{
-    color: #BF1818;
+    color: var(--colorlistas);
     list-style-type: none;
+    font-family: List;
+    font-size: var(--tamañolistas);
 }
 
 .listas, .sublistas:hover{
     cursor: pointer;
-    
 }
 
 .listas:hover{
-    color: #9DFD48;
+    color: var(--hoverlistas);
 }
 
 .sublistas:hover{
-    color: #DB7979;
+    color: var(--hoversublistas);
 }
 
 .sublistas{
     color: blue;
     text-decoration: none;
     list-style-type: none;
+    font-size: var(--tamañosublistas);
+    font-family: Sublist;
 }
 
 .links li a{
     text-decoration: none;
-    color: rgb(132, 24, 132);
+    color: var(--colorlinks);
+    font-size: var(--tamañolinks);
+    font-family: var(--font);
 }
 
-.links li a:hover{
-    color: rgb(234, 103, 234);
+.links li a:hover, .contacto:hover{
+    color: var(--hoverlinks);
+}
+
+.contacto{
+    text-decoration: none;
+    font-size: var(--tamañolinks);
+    font-family: var(--font);
+    color: var(--colorlinks);
 }
