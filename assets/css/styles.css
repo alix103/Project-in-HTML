@@ -73,3 +73,36 @@
     font-family: var(--font);
     color: var(--colorlinks);
 }
+
+.slider{
+    width: 500px;
+}
+
+.slider-container{
+    block-size: 500px;
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.slider-image{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.lista-botones{
+    text-align: center;
+}
+
+.slider-item{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
