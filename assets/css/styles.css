@@ -75,16 +75,20 @@
 }
 
 .slider{
-    width: 500px;
+    /*width: 1333px;*/
 }
 
 .slider-container{
-    block-size: 500px;
+    /*block-size: 500px;*/
     display: block;
     overflow: auto;
     scroll-behavior: smooth;
     white-space: nowrap;
     overflow-x: hidden;
+    overflow-y: hidden;
+    width: 500px;
+    height: 500px;
+    margin-left: 30%;
 }
 
 .slider-image{
